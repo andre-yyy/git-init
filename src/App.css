@@ -4,7 +4,6 @@
 
 * {
   box-sizing: border-box;
-  border: 1px solid seagreen;
 }
 
 body {
@@ -13,10 +12,7 @@ body {
 }
 
 .container {
-  /* width: 500px;
-  height: 400px; */
   margin: 100px auto;
-  /* background-color: lightblue; */
 }
 
 .main-area {
@@ -25,9 +21,7 @@ body {
  width: 90%;
  height: 75%;
  margin: 20px auto;
- /* background-color: lightcoral; */
  border-radius: 10px;
- /* box-shadow: 5px 5px 10px grey; */
  padding: 5px;
 }
 
@@ -37,7 +31,6 @@ body {
   align-items: center;
   width: 95%;
   height: 60%;
-  /* background-color: lightgrey; */
   border-radius: 10px;
   margin: 10px auto;
 }
