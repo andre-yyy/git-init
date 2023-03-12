@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  border: 1px solid seagreen;
+}
+
+body {
+  background-image: url(/assets/images/image1.jpg);
+  background-size: cover;
+}
+
+.container {
+  /* width: 500px;
+  height: 400px; */
+  margin: 100px auto;
+  /* background-color: lightblue; */
+}
+
+.main-area {
+ display: flex;
+ flex-direction: column;
+ width: 90%;
+ height: 75%;
+ margin: 20px auto;
+ /* background-color: lightcoral; */
+ border-radius: 10px;
+ /* box-shadow: 5px 5px 10px grey; */
+ padding: 5px;
+}
+
+.text-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 60%;
+  /* background-color: lightgrey; */
+  border-radius: 10px;
+  margin: 10px auto;
+}
+
+#main-text {
+  text-align: center;
+  font-size: 1.2rem;
+  overflow: hidden;
+}
+
+.header-area {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.person-area {
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.person-text {
+  height: 70%;
+  font-size: 1.2rem;
+}
+
+#btn-1 {
+  color: rgb(237, 195, 141);
+  border-radius: 10px;
+  box-shadow: 0px 3px 3px 1px #d9d9d9 inset;
+  font-size: 1.35em;
+}
+
+#btn-1:active {
+  box-shadow: 0px 3px 3px 0.1px #cccccc inset;
+  font-size: 1.25em;
+  color: rgb(206, 160, 99);
+}
